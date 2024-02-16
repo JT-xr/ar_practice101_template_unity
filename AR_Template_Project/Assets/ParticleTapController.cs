@@ -14,9 +14,9 @@ public class ParticleTapController : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount > 0){
+        //if (Input.touchCount > 0){
             particleActivator.Play ();
-        }
+        //}
 
         if (particleActivator.isPlaying){
         Debug.Log ("Particles are playing");
